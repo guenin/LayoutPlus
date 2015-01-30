@@ -1,12 +1,15 @@
 //
-//  LayoutPlusPlus-iOS.h
-//  LayoutPlusPlus-iOS
-//
-//  Created by John Guenin on 1/29/15.
-//  Copyright (c) 2015 John Guenin. All rights reserved.
+//  LayoutPlusPlus.h
+//  Layout++
 //
 
-#import <UIKit/UIKit.h>
+#import <TargetConditionals.h>
+
+#if TARGET_OS_IPHONE
+  #import <UIKit/UIKit.h>
+#else
+  #import <AppKit/AppKit.h>
+#endif
 
 //! Project version number for LayoutPlusPlus-iOS.
 FOUNDATION_EXPORT double LayoutPlusPlus_iOSVersionNumber;
