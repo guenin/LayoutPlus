@@ -1,12 +1,12 @@
 //
 //  LayoutView.swift
-//  Layout++
+//  Layout+
 //
 
 #if os(iOS)
-  typealias LayoutView = UIView
+  public typealias LayoutView = UIView
 #elseif os(OSX)
-  typealias LayoutView = NSView
+  public typealias LayoutView = NSView
 #endif
 
 extension LayoutView {

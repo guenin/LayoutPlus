@@ -1,6 +1,6 @@
 //
 //  TestView.swift
-//  Layout++ Tests
+//  Layout+ Tests
 //
 
 #if os(iOS)

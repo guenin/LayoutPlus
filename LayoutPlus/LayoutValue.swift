@@ -1,6 +1,6 @@
 //
 //  LayoutValue.swift
-//  Layout++
+//  Layout+
 //
 
 public struct LayoutValue {

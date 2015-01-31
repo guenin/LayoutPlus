@@ -1,6 +1,6 @@
 //
 //  assertions.swift
-//  Layout++ Tests
+//  Layout+ Tests
 //
 
 import XCTest

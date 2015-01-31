@@ -1,12 +1,12 @@
 //
-//  LayoutPlusPlusTests.swift
-//  Layout++ Tests
+//  LayoutPlusTests.swift
+//  Layout+ Tests
 //
 
 import XCTest
-import LayoutPlusPlus
+import LayoutPlus
 
-class LayoutPlusPlusTests: XCTestCase {
+class LayoutPlusTests: XCTestCase {
   
   let leftView = TestView()
   let rightView = TestView()

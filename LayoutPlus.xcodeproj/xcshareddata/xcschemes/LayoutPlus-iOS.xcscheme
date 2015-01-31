@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "528521241A7B440500A51662"
-               BuildableName = "LayoutPlusPlus.framework"
-               BlueprintName = "LayoutPlusPlus-iOS"
-               ReferencedContainer = "container:LayoutPlusPlus.xcodeproj">
+               BuildableName = "LayoutPlus.framework"
+               BlueprintName = "LayoutPlus-iOS"
+               ReferencedContainer = "container:LayoutPlus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5285212F1A7B440600A51662"
-               BuildableName = "LayoutPlusPlus-iOSTests.xctest"
-               BlueprintName = "LayoutPlusPlus-iOSTests"
-               ReferencedContainer = "container:LayoutPlusPlus.xcodeproj">
+               BuildableName = "LayoutPlus-iOSTests.xctest"
+               BlueprintName = "LayoutPlus-iOSTests"
+               ReferencedContainer = "container:LayoutPlus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5285212F1A7B440600A51662"
-               BuildableName = "LayoutPlusPlus-iOSTests.xctest"
-               BlueprintName = "LayoutPlusPlus-iOSTests"
-               ReferencedContainer = "container:LayoutPlusPlus.xcodeproj">
+               BuildableName = "LayoutPlus-iOSTests.xctest"
+               BlueprintName = "LayoutPlus-iOSTests"
+               ReferencedContainer = "container:LayoutPlus.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "528521241A7B440500A51662"
-            BuildableName = "LayoutPlusPlus.framework"
-            BlueprintName = "LayoutPlusPlus-iOS"
-            ReferencedContainer = "container:LayoutPlusPlus.xcodeproj">
+            BuildableName = "LayoutPlus.framework"
+            BlueprintName = "LayoutPlus-iOS"
+            ReferencedContainer = "container:LayoutPlus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "528521241A7B440500A51662"
-            BuildableName = "LayoutPlusPlus.framework"
-            BlueprintName = "LayoutPlusPlus-iOS"
-            ReferencedContainer = "container:LayoutPlusPlus.xcodeproj">
+            BuildableName = "LayoutPlus.framework"
+            BlueprintName = "LayoutPlus-iOS"
+            ReferencedContainer = "container:LayoutPlus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "528521241A7B440500A51662"
-            BuildableName = "LayoutPlusPlus.framework"
-            BlueprintName = "LayoutPlusPlus-iOS"
-            ReferencedContainer = "container:LayoutPlusPlus.xcodeproj">
+            BuildableName = "LayoutPlus.framework"
+            BlueprintName = "LayoutPlus-iOS"
+            ReferencedContainer = "container:LayoutPlus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CE1E1FB4-8E22-4FA1-8456-5AE885224D1A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LayoutPlus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>48C560DA0D98C37979FD9A56468E772F8AFC2DBD</key>
+		<string>github.com:guenin/LayoutPlus.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LayoutPlus.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>48C560DA0D98C37979FD9A56468E772F8AFC2DBD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:guenin/LayoutPlus.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>48C560DA0D98C37979FD9A56468E772F8AFC2DBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>48C560DA0D98C37979FD9A56468E772F8AFC2DBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Layout++</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		528521311A7B440600A51662 /* LayoutPlusPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528521251A7B440500A51662 /* LayoutPlusPlus.framework */; };
-		528521511A7B443A00A51662 /* LayoutPlusPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528521461A7B443A00A51662 /* LayoutPlusPlus.framework */; };
-		528521641A7B451900A51662 /* LayoutPlusPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 528521631A7B451900A51662 /* LayoutPlusPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		528521651A7B451900A51662 /* LayoutPlusPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 528521631A7B451900A51662 /* LayoutPlusPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5285216D1A7B456300A51662 /* LayoutPlusPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285216C1A7B456300A51662 /* LayoutPlusPlusTests.swift */; };
-		5285216E1A7B456300A51662 /* LayoutPlusPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285216C1A7B456300A51662 /* LayoutPlusPlusTests.swift */; };
-		528521821A7B45C900A51662 /* LayoutAttributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285217E1A7B45C900A51662 /* LayoutAttributer.swift */; };
-		528521831A7B45C900A51662 /* LayoutAttributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285217E1A7B45C900A51662 /* LayoutAttributer.swift */; };
-		528521841A7B45C900A51662 /* LayoutValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285217F1A7B45C900A51662 /* LayoutValue.swift */; };
-		528521851A7B45C900A51662 /* LayoutValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285217F1A7B45C900A51662 /* LayoutValue.swift */; };
-		528521861A7B45C900A51662 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528521801A7B45C900A51662 /* LayoutView.swift */; };
-		528521871A7B45C900A51662 /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528521801A7B45C900A51662 /* LayoutView.swift */; };
-		528521881A7B45C900A51662 /* operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528521811A7B45C900A51662 /* operations.swift */; };
-		528521891A7B45C900A51662 /* operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528521811A7B45C900A51662 /* operations.swift */; };
-		5285218C1A7B45E500A51662 /* assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285218A1A7B45E500A51662 /* assertions.swift */; };
-		5285218D1A7B45E500A51662 /* assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285218A1A7B45E500A51662 /* assertions.swift */; };
-		5285218E1A7B45E500A51662 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285218B1A7B45E500A51662 /* TestView.swift */; };
-		5285218F1A7B45E500A51662 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285218B1A7B45E500A51662 /* TestView.swift */; };
+		52825BC91A7CA95C00E9775D /* LayoutAttributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */; };
+		52825BCA1A7CA95C00E9775D /* LayoutPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 52825BC51A7CA95C00E9775D /* LayoutPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52825BCB1A7CA95C00E9775D /* LayoutValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC61A7CA95C00E9775D /* LayoutValue.swift */; };
+		52825BCC1A7CA95C00E9775D /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC71A7CA95C00E9775D /* LayoutView.swift */; };
+		52825BCD1A7CA95C00E9775D /* operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC81A7CA95C00E9775D /* operations.swift */; };
+		52825BD31A7CA98D00E9775D /* assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD01A7CA98D00E9775D /* assertions.swift */; };
+		52825BD41A7CA98D00E9775D /* assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD01A7CA98D00E9775D /* assertions.swift */; };
+		52825BD51A7CA98D00E9775D /* LayoutPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD11A7CA98D00E9775D /* LayoutPlusTests.swift */; };
+		52825BD61A7CA98D00E9775D /* LayoutPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD11A7CA98D00E9775D /* LayoutPlusTests.swift */; };
+		52825BD71A7CA98D00E9775D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD21A7CA98D00E9775D /* TestView.swift */; };
+		52825BD81A7CA98D00E9775D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD21A7CA98D00E9775D /* TestView.swift */; };
+		52825BD91A7CA9A400E9775D /* LayoutAttributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */; };
+		52825BDB1A7CA9A400E9775D /* LayoutValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC61A7CA95C00E9775D /* LayoutValue.swift */; };
+		52825BDC1A7CA9A400E9775D /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC71A7CA95C00E9775D /* LayoutView.swift */; };
+		52825BDD1A7CA9A400E9775D /* operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC81A7CA95C00E9775D /* operations.swift */; };
+		52825BDF1A7CA9D300E9775D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52825BDE1A7CA9D300E9775D /* Info.plist */; };
+		52825BE01A7CA9D300E9775D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52825BDE1A7CA9D300E9775D /* Info.plist */; };
+		528521311A7B440600A51662 /* LayoutPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528521251A7B440500A51662 /* LayoutPlus.framework */; };
+		528521511A7B443A00A51662 /* LayoutPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528521461A7B443A00A51662 /* LayoutPlus.framework */; };
+		52E247B21A7CADC0008A0942 /* LayoutPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 52825BC51A7CA95C00E9775D /* LayoutPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,32 +35,32 @@
 			containerPortal = 5285211C1A7B440500A51662 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 528521241A7B440500A51662;
-			remoteInfo = "LayoutPlusPlus-iOS";
+			remoteInfo = "LayoutPlus-iOS";
 		};
 		528521521A7B443A00A51662 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5285211C1A7B440500A51662 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 528521451A7B443A00A51662;
-			remoteInfo = "LayoutPlusPlus-Mac";
+			remoteInfo = "LayoutPlus-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		528521251A7B440500A51662 /* LayoutPlusPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutPlusPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		528521301A7B440600A51662 /* LayoutPlusPlus-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutPlusPlus-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		528521461A7B443A00A51662 /* LayoutPlusPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutPlusPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		528521501A7B443A00A51662 /* LayoutPlusPlus-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutPlusPlus-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		528521601A7B451200A51662 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LayoutPlusPlus/Info.plist; sourceTree = SOURCE_ROOT; };
-		528521631A7B451900A51662 /* LayoutPlusPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayoutPlusPlus.h; path = LayoutPlusPlus/LayoutPlusPlus.h; sourceTree = SOURCE_ROOT; };
-		528521661A7B453200A51662 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LayoutPlusPlusTests/Info.plist; sourceTree = SOURCE_ROOT; };
-		5285216C1A7B456300A51662 /* LayoutPlusPlusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutPlusPlusTests.swift; path = LayoutPlusPlusTests/LayoutPlusPlusTests.swift; sourceTree = SOURCE_ROOT; };
-		5285217E1A7B45C900A51662 /* LayoutAttributer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutAttributer.swift; path = LayoutPlusPlus/LayoutAttributer.swift; sourceTree = SOURCE_ROOT; };
-		5285217F1A7B45C900A51662 /* LayoutValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutValue.swift; path = LayoutPlusPlus/LayoutValue.swift; sourceTree = SOURCE_ROOT; };
-		528521801A7B45C900A51662 /* LayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutView.swift; path = LayoutPlusPlus/LayoutView.swift; sourceTree = SOURCE_ROOT; };
-		528521811A7B45C900A51662 /* operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = operations.swift; path = LayoutPlusPlus/operations.swift; sourceTree = SOURCE_ROOT; };
-		5285218A1A7B45E500A51662 /* assertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = assertions.swift; path = LayoutPlusPlusTests/assertions.swift; sourceTree = SOURCE_ROOT; };
-		5285218B1A7B45E500A51662 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestView.swift; path = LayoutPlusPlusTests/TestView.swift; sourceTree = SOURCE_ROOT; };
+		52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutAttributer.swift; path = LayoutPlus/LayoutAttributer.swift; sourceTree = SOURCE_ROOT; };
+		52825BC51A7CA95C00E9775D /* LayoutPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayoutPlus.h; path = LayoutPlus/LayoutPlus.h; sourceTree = SOURCE_ROOT; };
+		52825BC61A7CA95C00E9775D /* LayoutValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutValue.swift; path = LayoutPlus/LayoutValue.swift; sourceTree = SOURCE_ROOT; };
+		52825BC71A7CA95C00E9775D /* LayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutView.swift; path = LayoutPlus/LayoutView.swift; sourceTree = SOURCE_ROOT; };
+		52825BC81A7CA95C00E9775D /* operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = operations.swift; path = LayoutPlus/operations.swift; sourceTree = SOURCE_ROOT; };
+		52825BCE1A7CA96C00E9775D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LayoutPlus/Info.plist; sourceTree = SOURCE_ROOT; };
+		52825BD01A7CA98D00E9775D /* assertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = assertions.swift; path = LayoutPlusTests/assertions.swift; sourceTree = SOURCE_ROOT; };
+		52825BD11A7CA98D00E9775D /* LayoutPlusTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutPlusTests.swift; path = LayoutPlusTests/LayoutPlusTests.swift; sourceTree = SOURCE_ROOT; };
+		52825BD21A7CA98D00E9775D /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestView.swift; path = LayoutPlusTests/TestView.swift; sourceTree = SOURCE_ROOT; };
+		52825BDE1A7CA9D300E9775D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LayoutPlus/Info.plist; sourceTree = SOURCE_ROOT; };
+		528521251A7B440500A51662 /* LayoutPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528521301A7B440600A51662 /* LayoutPlus-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutPlus-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		528521461A7B443A00A51662 /* LayoutPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528521501A7B443A00A51662 /* LayoutPlus-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutPlus-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528521311A7B440600A51662 /* LayoutPlusPlus.framework in Frameworks */,
+				528521311A7B440600A51662 /* LayoutPlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528521511A7B443A00A51662 /* LayoutPlusPlus.framework in Frameworks */,
+				528521511A7B443A00A51662 /* LayoutPlus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +100,8 @@
 		5285211B1A7B440500A51662 = {
 			isa = PBXGroup;
 			children = (
-				528521271A7B440500A51662 /* LayoutPlusPlus */,
-				528521341A7B440600A51662 /* LayoutPlusPlusTests */,
+				528521271A7B440500A51662 /* LayoutPlus */,
+				528521341A7B440600A51662 /* LayoutPlusTests */,
 				528521261A7B440500A51662 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,52 +109,52 @@
 		528521261A7B440500A51662 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				528521251A7B440500A51662 /* LayoutPlusPlus.framework */,
-				528521301A7B440600A51662 /* LayoutPlusPlus-iOSTests.xctest */,
-				528521461A7B443A00A51662 /* LayoutPlusPlus.framework */,
-				528521501A7B443A00A51662 /* LayoutPlusPlus-MacTests.xctest */,
+				528521251A7B440500A51662 /* LayoutPlus.framework */,
+				528521301A7B440600A51662 /* LayoutPlus-iOSTests.xctest */,
+				528521461A7B443A00A51662 /* LayoutPlus.framework */,
+				528521501A7B443A00A51662 /* LayoutPlus-MacTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		528521271A7B440500A51662 /* LayoutPlusPlus */ = {
+		528521271A7B440500A51662 /* LayoutPlus */ = {
 			isa = PBXGroup;
 			children = (
-				528521631A7B451900A51662 /* LayoutPlusPlus.h */,
-				5285217E1A7B45C900A51662 /* LayoutAttributer.swift */,
-				5285217F1A7B45C900A51662 /* LayoutValue.swift */,
-				528521801A7B45C900A51662 /* LayoutView.swift */,
-				528521811A7B45C900A51662 /* operations.swift */,
+				52825BC51A7CA95C00E9775D /* LayoutPlus.h */,
+				52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */,
+				52825BC61A7CA95C00E9775D /* LayoutValue.swift */,
+				52825BC71A7CA95C00E9775D /* LayoutView.swift */,
+				52825BC81A7CA95C00E9775D /* operations.swift */,
 				528521281A7B440500A51662 /* Supporting Files */,
 			);
-			name = LayoutPlusPlus;
-			path = "LayoutPlusPlus-iOS";
+			name = LayoutPlus;
+			path = "LayoutPlus-iOS";
 			sourceTree = "<group>";
 		};
 		528521281A7B440500A51662 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				528521601A7B451200A51662 /* Info.plist */,
+				52825BCE1A7CA96C00E9775D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		528521341A7B440600A51662 /* LayoutPlusPlusTests */ = {
+		528521341A7B440600A51662 /* LayoutPlusTests */ = {
 			isa = PBXGroup;
 			children = (
-				5285216C1A7B456300A51662 /* LayoutPlusPlusTests.swift */,
-				5285218B1A7B45E500A51662 /* TestView.swift */,
-				5285218A1A7B45E500A51662 /* assertions.swift */,
+				52825BD11A7CA98D00E9775D /* LayoutPlusTests.swift */,
+				52825BD21A7CA98D00E9775D /* TestView.swift */,
+				52825BD01A7CA98D00E9775D /* assertions.swift */,
 				528521351A7B440600A51662 /* Supporting Files */,
 			);
-			name = LayoutPlusPlusTests;
-			path = "LayoutPlusPlus-iOSTests";
+			name = LayoutPlusTests;
+			path = "LayoutPlus-iOSTests";
 			sourceTree = "<group>";
 		};
 		528521351A7B440600A51662 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				528521661A7B453200A51662 /* Info.plist */,
+				52825BDE1A7CA9D300E9775D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,7 +166,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528521641A7B451900A51662 /* LayoutPlusPlus.h in Headers */,
+				52825BCA1A7CA95C00E9775D /* LayoutPlus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,16 +174,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528521651A7B451900A51662 /* LayoutPlusPlus.h in Headers */,
+				52E247B21A7CADC0008A0942 /* LayoutPlus.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		528521241A7B440500A51662 /* LayoutPlusPlus-iOS */ = {
+		528521241A7B440500A51662 /* LayoutPlus-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5285213B1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-iOS" */;
+			buildConfigurationList = 5285213B1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-iOS" */;
 			buildPhases = (
 				528521201A7B440500A51662 /* Sources */,
 				528521211A7B440500A51662 /* Frameworks */,
@@ -192,14 +194,14 @@
 			);
 			dependencies = (
 			);
-			name = "LayoutPlusPlus-iOS";
-			productName = "LayoutPlusPlus-iOS";
-			productReference = 528521251A7B440500A51662 /* LayoutPlusPlus.framework */;
+			name = "LayoutPlus-iOS";
+			productName = "LayoutPlus-iOS";
+			productReference = 528521251A7B440500A51662 /* LayoutPlus.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5285212F1A7B440600A51662 /* LayoutPlusPlus-iOSTests */ = {
+		5285212F1A7B440600A51662 /* LayoutPlus-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5285213E1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-iOSTests" */;
+			buildConfigurationList = 5285213E1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-iOSTests" */;
 			buildPhases = (
 				5285212C1A7B440600A51662 /* Sources */,
 				5285212D1A7B440600A51662 /* Frameworks */,
@@ -210,14 +212,14 @@
 			dependencies = (
 				528521331A7B440600A51662 /* PBXTargetDependency */,
 			);
-			name = "LayoutPlusPlus-iOSTests";
-			productName = "LayoutPlusPlus-iOSTests";
-			productReference = 528521301A7B440600A51662 /* LayoutPlusPlus-iOSTests.xctest */;
+			name = "LayoutPlus-iOSTests";
+			productName = "LayoutPlus-iOSTests";
+			productReference = 528521301A7B440600A51662 /* LayoutPlus-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		528521451A7B443A00A51662 /* LayoutPlusPlus-Mac */ = {
+		528521451A7B443A00A51662 /* LayoutPlus-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 528521591A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-Mac" */;
+			buildConfigurationList = 528521591A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-Mac" */;
 			buildPhases = (
 				528521411A7B443A00A51662 /* Sources */,
 				528521421A7B443A00A51662 /* Frameworks */,
@@ -228,14 +230,14 @@
 			);
 			dependencies = (
 			);
-			name = "LayoutPlusPlus-Mac";
-			productName = "LayoutPlusPlus-Mac";
-			productReference = 528521461A7B443A00A51662 /* LayoutPlusPlus.framework */;
+			name = "LayoutPlus-Mac";
+			productName = "LayoutPlus-Mac";
+			productReference = 528521461A7B443A00A51662 /* LayoutPlus.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5285214F1A7B443A00A51662 /* LayoutPlusPlus-MacTests */ = {
+		5285214F1A7B443A00A51662 /* LayoutPlus-MacTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5285215C1A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-MacTests" */;
+			buildConfigurationList = 5285215C1A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-MacTests" */;
 			buildPhases = (
 				5285214C1A7B443A00A51662 /* Sources */,
 				5285214D1A7B443A00A51662 /* Frameworks */,
@@ -246,9 +248,9 @@
 			dependencies = (
 				528521531A7B443A00A51662 /* PBXTargetDependency */,
 			);
-			name = "LayoutPlusPlus-MacTests";
-			productName = "LayoutPlusPlus-MacTests";
-			productReference = 528521501A7B443A00A51662 /* LayoutPlusPlus-MacTests.xctest */;
+			name = "LayoutPlus-MacTests";
+			productName = "LayoutPlus-MacTests";
+			productReference = 528521501A7B443A00A51662 /* LayoutPlus-MacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +276,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5285211F1A7B440500A51662 /* Build configuration list for PBXProject "LayoutPlusPlus" */;
+			buildConfigurationList = 5285211F1A7B440500A51662 /* Build configuration list for PBXProject "LayoutPlus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,10 +288,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				528521241A7B440500A51662 /* LayoutPlusPlus-iOS */,
-				5285212F1A7B440600A51662 /* LayoutPlusPlus-iOSTests */,
-				528521451A7B443A00A51662 /* LayoutPlusPlus-Mac */,
-				5285214F1A7B443A00A51662 /* LayoutPlusPlus-MacTests */,
+				528521241A7B440500A51662 /* LayoutPlus-iOS */,
+				5285212F1A7B440600A51662 /* LayoutPlus-iOSTests */,
+				528521451A7B443A00A51662 /* LayoutPlus-Mac */,
+				5285214F1A7B443A00A51662 /* LayoutPlus-MacTests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52825BDF1A7CA9D300E9775D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +323,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52825BE01A7CA9D300E9775D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +334,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528521821A7B45C900A51662 /* LayoutAttributer.swift in Sources */,
-				528521841A7B45C900A51662 /* LayoutValue.swift in Sources */,
-				528521861A7B45C900A51662 /* LayoutView.swift in Sources */,
-				528521881A7B45C900A51662 /* operations.swift in Sources */,
+				52825BC91A7CA95C00E9775D /* LayoutAttributer.swift in Sources */,
+				52825BCB1A7CA95C00E9775D /* LayoutValue.swift in Sources */,
+				52825BCC1A7CA95C00E9775D /* LayoutView.swift in Sources */,
+				52825BCD1A7CA95C00E9775D /* operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,9 +345,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5285218E1A7B45E500A51662 /* TestView.swift in Sources */,
-				5285218C1A7B45E500A51662 /* assertions.swift in Sources */,
-				5285216D1A7B456300A51662 /* LayoutPlusPlusTests.swift in Sources */,
+				52825BD71A7CA98D00E9775D /* TestView.swift in Sources */,
+				52825BD31A7CA98D00E9775D /* assertions.swift in Sources */,
+				52825BD51A7CA98D00E9775D /* LayoutPlusTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,10 +355,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528521831A7B45C900A51662 /* LayoutAttributer.swift in Sources */,
-				528521851A7B45C900A51662 /* LayoutValue.swift in Sources */,
-				528521871A7B45C900A51662 /* LayoutView.swift in Sources */,
-				528521891A7B45C900A51662 /* operations.swift in Sources */,
+				52825BD91A7CA9A400E9775D /* LayoutAttributer.swift in Sources */,
+				52825BDB1A7CA9A400E9775D /* LayoutValue.swift in Sources */,
+				52825BDC1A7CA9A400E9775D /* LayoutView.swift in Sources */,
+				52825BDD1A7CA9A400E9775D /* operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,9 +366,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5285218F1A7B45E500A51662 /* TestView.swift in Sources */,
-				5285218D1A7B45E500A51662 /* assertions.swift in Sources */,
-				5285216E1A7B456300A51662 /* LayoutPlusPlusTests.swift in Sources */,
+				52825BD81A7CA98D00E9775D /* TestView.swift in Sources */,
+				52825BD41A7CA98D00E9775D /* assertions.swift in Sources */,
+				52825BD61A7CA98D00E9775D /* LayoutPlusTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,12 +377,12 @@
 /* Begin PBXTargetDependency section */
 		528521331A7B440600A51662 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 528521241A7B440500A51662 /* LayoutPlusPlus-iOS */;
+			target = 528521241A7B440500A51662 /* LayoutPlus-iOS */;
 			targetProxy = 528521321A7B440600A51662 /* PBXContainerItemProxy */;
 		};
 		528521531A7B443A00A51662 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 528521451A7B443A00A51662 /* LayoutPlusPlus-Mac */;
+			target = 528521451A7B443A00A51662 /* LayoutPlus-Mac */;
 			targetProxy = 528521521A7B443A00A51662 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -477,11 +481,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlusPlus/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlus/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = LayoutPlusPlus;
-				SKIP_INSTALL = YES;
+				PRODUCT_NAME = LayoutPlus;
+				SKIP_INSTALL = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -494,11 +498,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlusPlus/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlus/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = LayoutPlusPlus;
-				SKIP_INSTALL = YES;
+				PRODUCT_NAME = LayoutPlus;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -514,9 +518,9 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LayoutPlusPlusTests/Info.plist;
+				INFOPLIST_FILE = LayoutPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LayoutPlus-iOSTests";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -529,9 +533,9 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LayoutPlusPlusTests/Info.plist;
+				INFOPLIST_FILE = LayoutPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LayoutPlus-iOSTests";
 			};
 			name = Release;
 		};
@@ -549,11 +553,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlusPlus/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlus/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = LayoutPlusPlus;
+				PRODUCT_NAME = LayoutPlus;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -571,11 +575,11 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlusPlus/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/LayoutPlus/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = LayoutPlusPlus;
+				PRODUCT_NAME = LayoutPlus;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -594,10 +598,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LayoutPlusPlusTests/Info.plist;
+				INFOPLIST_FILE = LayoutPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LayoutPlus-MacTests";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -613,10 +617,10 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = LayoutPlusPlusTests/Info.plist;
+				INFOPLIST_FILE = LayoutPlusTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "LayoutPlus-MacTests";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -624,7 +628,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5285211F1A7B440500A51662 /* Build configuration list for PBXProject "LayoutPlusPlus" */ = {
+		5285211F1A7B440500A51662 /* Build configuration list for PBXProject "LayoutPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				528521391A7B440600A51662 /* Debug */,
@@ -633,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5285213B1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-iOS" */ = {
+		5285213B1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5285213C1A7B440600A51662 /* Debug */,
@@ -642,7 +646,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5285213E1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-iOSTests" */ = {
+		5285213E1A7B440600A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5285213F1A7B440600A51662 /* Debug */,
@@ -651,7 +655,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		528521591A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-Mac" */ = {
+		528521591A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5285215A1A7B443A00A51662 /* Debug */,
@@ -660,7 +664,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5285215C1A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlusPlus-MacTests" */ = {
+		5285215C1A7B443A00A51662 /* Build configuration list for PBXNativeTarget "LayoutPlus-MacTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5285215D1A7B443A00A51662 /* Debug */,

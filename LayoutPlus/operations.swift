@@ -1,6 +1,6 @@
 //
 //  operations.swift
-//  Layout++
+//  Layout+
 //
 
 //MARK: math-ish operations

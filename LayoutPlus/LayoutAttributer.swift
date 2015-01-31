@@ -1,6 +1,6 @@
 //
 //  LayoutAttributer.swift
-//  Layout++
+//  Layout+
 //
 
 public struct LayoutAttributer {
