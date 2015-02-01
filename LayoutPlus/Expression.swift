@@ -1,15 +1,15 @@
 //
-//  LayoutValue.swift
+//  Expression.swift
 //  Layout+
 //
 
-public struct LayoutValue {
-  let view: LayoutView
+public struct Expression {
+  let view: View
   let attribute: NSLayoutAttribute
   let multiplier: CGFloat
   let constant: CGFloat
   
-  init(view: LayoutView, attribute: NSLayoutAttribute = .NotAnAttribute, multiplier: CGFloat = 1, constant: CGFloat = 0) {
+  init(view: View, attribute: NSLayoutAttribute = .NotAnAttribute, multiplier: CGFloat = 1, constant: CGFloat = 0) {
     self.view = view
     self.attribute = attribute
     self.multiplier = multiplier
@@ -18,22 +18,22 @@ public struct LayoutValue {
   
   //MARK:- mathmatical operations
   
-  func plus(addend: CGFloat) -> LayoutValue {
+  func plus(addend: CGFloat) -> Expression {
     let sum = constant + addend
     return value(constant: sum)
   }
   
-  func minus(subtrahend: CGFloat) -> LayoutValue {
+  func minus(subtrahend: CGFloat) -> Expression {
     let sum = constant - subtrahend
     return value(constant: sum)
   }
   
-  func times(multiplier: CGFloat) -> LayoutValue {
+  func times(multiplier: CGFloat) -> Expression {
     let product = self.multiplier * multiplier
     return value(multiplier: product)
   }
   
-  func divide(divisor: CGFloat) -> LayoutValue {
+  func divide(divisor: CGFloat) -> Expression {
     let dividend = self.multiplier / divisor
     return value(multiplier: dividend)
   }
@@ -53,7 +53,7 @@ public struct LayoutValue {
       constant:   combinedConstant)
   }
   
-  func constrainBy(relation: NSLayoutRelation, to other: LayoutValue) -> NSLayoutConstraint {
+  func constrainBy(relation: NSLayoutRelation, to other: Expression) -> NSLayoutConstraint {
     let combinedMultiplier = other.multiplier / multiplier
     let combinedConstant = other.constant - constant
     
@@ -70,8 +70,8 @@ public struct LayoutValue {
   //MARK:- private
   
   private func value(
-    view: LayoutView? = nil, attribute: NSLayoutAttribute? = nil, multiplier: CGFloat? = nil, constant: CGFloat? = nil) -> LayoutValue {
-      return LayoutValue(
+    view: View? = nil, attribute: NSLayoutAttribute? = nil, multiplier: CGFloat? = nil, constant: CGFloat? = nil) -> Expression {
+      return Expression(
         view:       view ?? self.view,
         attribute:  attribute ?? self.attribute,
         multiplier: multiplier ?? self.multiplier,

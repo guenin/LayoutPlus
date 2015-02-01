@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52825BC91A7CA95C00E9775D /* LayoutAttributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */; };
+		52825BC91A7CA95C00E9775D /* Attributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC41A7CA95C00E9775D /* Attributer.swift */; };
 		52825BCA1A7CA95C00E9775D /* LayoutPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 52825BC51A7CA95C00E9775D /* LayoutPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52825BCB1A7CA95C00E9775D /* LayoutValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC61A7CA95C00E9775D /* LayoutValue.swift */; };
-		52825BCC1A7CA95C00E9775D /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC71A7CA95C00E9775D /* LayoutView.swift */; };
+		52825BCB1A7CA95C00E9775D /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC61A7CA95C00E9775D /* Expression.swift */; };
+		52825BCC1A7CA95C00E9775D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC71A7CA95C00E9775D /* View.swift */; };
 		52825BCD1A7CA95C00E9775D /* operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC81A7CA95C00E9775D /* operations.swift */; };
 		52825BD31A7CA98D00E9775D /* assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD01A7CA98D00E9775D /* assertions.swift */; };
 		52825BD41A7CA98D00E9775D /* assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD01A7CA98D00E9775D /* assertions.swift */; };
@@ -18,15 +18,17 @@
 		52825BD61A7CA98D00E9775D /* LayoutPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD11A7CA98D00E9775D /* LayoutPlusTests.swift */; };
 		52825BD71A7CA98D00E9775D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD21A7CA98D00E9775D /* TestView.swift */; };
 		52825BD81A7CA98D00E9775D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BD21A7CA98D00E9775D /* TestView.swift */; };
-		52825BD91A7CA9A400E9775D /* LayoutAttributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */; };
-		52825BDB1A7CA9A400E9775D /* LayoutValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC61A7CA95C00E9775D /* LayoutValue.swift */; };
-		52825BDC1A7CA9A400E9775D /* LayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC71A7CA95C00E9775D /* LayoutView.swift */; };
+		52825BD91A7CA9A400E9775D /* Attributer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC41A7CA95C00E9775D /* Attributer.swift */; };
+		52825BDB1A7CA9A400E9775D /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC61A7CA95C00E9775D /* Expression.swift */; };
+		52825BDC1A7CA9A400E9775D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC71A7CA95C00E9775D /* View.swift */; };
 		52825BDD1A7CA9A400E9775D /* operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52825BC81A7CA95C00E9775D /* operations.swift */; };
 		52825BDF1A7CA9D300E9775D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52825BDE1A7CA9D300E9775D /* Info.plist */; };
 		52825BE01A7CA9D300E9775D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52825BDE1A7CA9D300E9775D /* Info.plist */; };
 		528521311A7B440600A51662 /* LayoutPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528521251A7B440500A51662 /* LayoutPlus.framework */; };
 		528521511A7B443A00A51662 /* LayoutPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528521461A7B443A00A51662 /* LayoutPlus.framework */; };
 		52E247B21A7CADC0008A0942 /* LayoutPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = 52825BC51A7CA95C00E9775D /* LayoutPlus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52E247B41A7DA3C6008A0942 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E247B31A7DA3C6008A0942 /* Value.swift */; };
+		52E247B51A7DA434008A0942 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E247B31A7DA3C6008A0942 /* Value.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutAttributer.swift; path = LayoutPlus/LayoutAttributer.swift; sourceTree = SOURCE_ROOT; };
+		52825BC41A7CA95C00E9775D /* Attributer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Attributer.swift; path = LayoutPlus/Attributer.swift; sourceTree = SOURCE_ROOT; };
 		52825BC51A7CA95C00E9775D /* LayoutPlus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayoutPlus.h; path = LayoutPlus/LayoutPlus.h; sourceTree = SOURCE_ROOT; };
-		52825BC61A7CA95C00E9775D /* LayoutValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutValue.swift; path = LayoutPlus/LayoutValue.swift; sourceTree = SOURCE_ROOT; };
-		52825BC71A7CA95C00E9775D /* LayoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayoutView.swift; path = LayoutPlus/LayoutView.swift; sourceTree = SOURCE_ROOT; };
+		52825BC61A7CA95C00E9775D /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = LayoutPlus/Expression.swift; sourceTree = SOURCE_ROOT; };
+		52825BC71A7CA95C00E9775D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View.swift; path = LayoutPlus/View.swift; sourceTree = SOURCE_ROOT; };
 		52825BC81A7CA95C00E9775D /* operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = operations.swift; path = LayoutPlus/operations.swift; sourceTree = SOURCE_ROOT; };
 		52825BCE1A7CA96C00E9775D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LayoutPlus/Info.plist; sourceTree = SOURCE_ROOT; };
 		52825BD01A7CA98D00E9775D /* assertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = assertions.swift; path = LayoutPlusTests/assertions.swift; sourceTree = SOURCE_ROOT; };
@@ -61,6 +63,7 @@
 		528521301A7B440600A51662 /* LayoutPlus-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutPlus-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528521461A7B443A00A51662 /* LayoutPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		528521501A7B443A00A51662 /* LayoutPlus-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutPlus-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E247B31A7DA3C6008A0942 /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Value.swift; path = LayoutPlus/Value.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				52825BC51A7CA95C00E9775D /* LayoutPlus.h */,
-				52825BC41A7CA95C00E9775D /* LayoutAttributer.swift */,
-				52825BC61A7CA95C00E9775D /* LayoutValue.swift */,
-				52825BC71A7CA95C00E9775D /* LayoutView.swift */,
+				52825BC41A7CA95C00E9775D /* Attributer.swift */,
+				52825BC61A7CA95C00E9775D /* Expression.swift */,
+				52E247B31A7DA3C6008A0942 /* Value.swift */,
+				52825BC71A7CA95C00E9775D /* View.swift */,
 				52825BC81A7CA95C00E9775D /* operations.swift */,
 				528521281A7B440500A51662 /* Supporting Files */,
 			);
@@ -334,9 +338,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52825BC91A7CA95C00E9775D /* LayoutAttributer.swift in Sources */,
-				52825BCB1A7CA95C00E9775D /* LayoutValue.swift in Sources */,
-				52825BCC1A7CA95C00E9775D /* LayoutView.swift in Sources */,
+				52825BC91A7CA95C00E9775D /* Attributer.swift in Sources */,
+				52825BCB1A7CA95C00E9775D /* Expression.swift in Sources */,
+				52E247B41A7DA3C6008A0942 /* Value.swift in Sources */,
+				52825BCC1A7CA95C00E9775D /* View.swift in Sources */,
 				52825BCD1A7CA95C00E9775D /* operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,9 +360,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52825BD91A7CA9A400E9775D /* LayoutAttributer.swift in Sources */,
-				52825BDB1A7CA9A400E9775D /* LayoutValue.swift in Sources */,
-				52825BDC1A7CA9A400E9775D /* LayoutView.swift in Sources */,
+				52E247B51A7DA434008A0942 /* Value.swift in Sources */,
+				52825BD91A7CA9A400E9775D /* Attributer.swift in Sources */,
+				52825BDB1A7CA9A400E9775D /* Expression.swift in Sources */,
+				52825BDC1A7CA9A400E9775D /* View.swift in Sources */,
 				52825BDD1A7CA9A400E9775D /* operations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
