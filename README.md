@@ -46,7 +46,7 @@ button.layout.top - 40 == label.layout.bottom
 
 These equations are reflexive, so the above two lines produce identical `NSLayoutConstraints`.
 
-Multiplication and division similarly with set the multiplier in the constraint.
+Multiplication and division similarly will set the multiplier in the constraint.
 
 ```swift
 button.layout.width == label.layout.width * 2
@@ -89,3 +89,8 @@ $ carthage update
 Drag `LayoutPlus.framework` from the `Carthage/Build` folder into the “Embedded Binaries” section for your application target in XCode.
 
 Add `import LayoutPlus` to any .swift file you want to use it in, and get started!
+
+License
+-------
+
+Layout+ is released under the [MIT License](LICENSE).
