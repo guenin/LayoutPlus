@@ -64,6 +64,7 @@
 		528521461A7B443A00A51662 /* LayoutPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LayoutPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		528521501A7B443A00A51662 /* LayoutPlus-MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LayoutPlus-MacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E247B31A7DA3C6008A0942 /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Value.swift; path = LayoutPlus/Value.swift; sourceTree = SOURCE_ROOT; };
+		52E247B61A7DABC5008A0942 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +104,7 @@
 		5285211B1A7B440500A51662 = {
 			isa = PBXGroup;
 			children = (
+				52E247B61A7DABC5008A0942 /* README.md */,
 				528521271A7B440500A51662 /* LayoutPlus */,
 				528521341A7B440600A51662 /* LayoutPlusTests */,
 				528521261A7B440500A51662 /* Products */,
