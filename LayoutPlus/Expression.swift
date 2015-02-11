@@ -20,22 +20,22 @@ public struct Expression {
   
   func plus(addend: CGFloat) -> Expression {
     let sum = constant + addend
-    return value(constant: sum)
+    return expression(constant: sum)
   }
   
   func minus(subtrahend: CGFloat) -> Expression {
     let sum = constant - subtrahend
-    return value(constant: sum)
+    return expression(constant: sum)
   }
   
   func times(multiplier: CGFloat) -> Expression {
     let product = self.multiplier * multiplier
-    return value(multiplier: product)
+    return expression(multiplier: product)
   }
   
   func divide(divisor: CGFloat) -> Expression {
     let dividend = self.multiplier / divisor
-    return value(multiplier: dividend)
+    return expression(multiplier: dividend)
   }
   
   //MARK:- create constraints
@@ -69,7 +69,7 @@ public struct Expression {
   
   //MARK:- private
   
-  private func value(
+  private func expression(
     view: View? = nil, attribute: NSLayoutAttribute? = nil, multiplier: CGFloat? = nil, constant: CGFloat? = nil) -> Expression {
       return Expression(
         view:       view ?? self.view,
